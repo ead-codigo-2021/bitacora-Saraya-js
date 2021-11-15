@@ -13,6 +13,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+        <link rel="shortcut icon" href="../assets/imágenes/favicon.png">
     <title>Mi bitácora portafolio</title>
 </head>
 
@@ -48,11 +49,17 @@
                     será estático. lo mas importante de estos sitios es que no están conectados a un servidor o a una
                     base de datos, es decir
                     el usuario desde el navegador no podrá generar nigún tipo de cambio en el sitios. </p>
+                <figure>
+                    <img src="../assets/imágenes/sitios-estaticos.JPG" alt="ejemplo sitio estático.">
+                </figure>
                 <p> <strong>Páginas dinámicas:</strong> Estas dejan de ser sitios y se convierten mas en aplicaciones
                     web por todo lo que se puede
                     hacer en ellas. Estas si están cpnectadas a una base de datos porque guardan información y los
                     usuarios pueden interactuar en el sitio
                     generando cambios.</p>
+                <figure>
+                    <img src="../assets/imágenes/sitios-dinamicos.JPG" alt="ejemplo sitio dinámico.">
+                </figure>
                 <p>
                 <p><strong>¿Cómo es el proceso para construir un sitio web?</strong> Se utiliza la Metodología de diseño
                     centrado en el usuario que conta de 5 etapas.
@@ -68,6 +75,10 @@
                     <li>1) Sitio web: Posteriormente el sitio es trabajado por el desarrollo backend, asegurando
                         estándares de escalabilidad, estabilidad y seguridad.</li>
                 </ul>
+                <figure>
+                    <img src="../assets/imágenes/metodología-diseño-centrado-usuario.JPG"
+                        alt="Metodología diseño centrado en el usuario.">
+                </figure>
                 <p><strong>Herramientas para el desarrollo frontend</strong>
                 <ul class="advice-list">
                     <li>1) Editor de código: existen diversos editores de código como sublime text, visual studio code,
@@ -75,8 +86,10 @@
                     <li>2) Github: Controlador de versiones.</li>
                     <li>3) devtools: Las herramientas de dearrollador que permiten inspeccionar el código mientras se
                         visualiza en el navegador.</li>
-
                 </ul>
+                <figure>
+                    <img src="../assets/imágenes/lenguajes-diseño-frontend.JPG" alt="Herramientas para desarrollar.">
+                </figure>
                 <h2>Segunda clase</h2>
                 <p class="parrafo_declases"> <strong>¿Qué es html?</strong> Sus siglas HTML Hyper Text Markup Languaje
                     significan lenguaje de marcado para hipertexto. No es un lenguaje de programación.
@@ -111,7 +124,8 @@
                     aparecerá entonces en el editor la opción formato de documento, se presiona y el documento se
                     ordena completamente.
                 </p>
-                <p><strong>Atributos:</strong> Los atributos son son palabras especiales utilizadas dentro de la etiqueta
+                <p><strong>Atributos:</strong> Los atributos son son palabras especiales utilizadas dentro de la
+                    etiqueta
                     de apertura, para controlar el comportamiento del elemento.</p>
                 <br>
                 <figure>
@@ -133,16 +147,19 @@
                     comienza con una etiqueta que se cierra a si misma y con la cual indicamos que tipo de
                     documento escribiremos en el editor de texto, esa etiqueta se llama
                     <strong class="uppercase">doctype.</strong>
-                    Luego de indicar el tipo de documento debemos colocar la etiqueta <strong class="uppercase">lang</strong>
+                    Luego de indicar el tipo de documento debemos colocar la etiqueta <strong
+                        class="uppercase">lang</strong>
                     ,con ella le decimos al archivo que lenguaje utilizaremos, en nuestro caso español.
                     <br>
                 </p>
                 <p>Posteriormente pasamos a definir las dos secciones mas grandes del documento, ellas son
-                    <strong class="uppercase"> head y body. En Head</strong> se colocan los metadatos del sitio, es decir,
+                    <strong class="uppercase"> head y body. En Head</strong> se colocan los metadatos del sitio, es
+                    decir,
                     aquellos datos que no son visibles para el espectador pero que dan indicaciones fundamentales
                     para que funcione correctamente. En esta parte se vinculan las cascadas de estilos de css, los
                     archivos javaScript, entre otras características que se pueden asociar.
-                    En el <strong class="uppercase"> body</strong> en tanto se ubicará todo el contenido que si será visible por
+                    En el <strong class="uppercase"> body</strong> en tanto se ubicará todo el contenido que si será
+                    visible por
                     el espectador del sitio.
                     </strong>
                 </p>
@@ -160,26 +177,31 @@
                     <li>Propiedad</li>
                     <li>Valor</li>
                 </ul>
+                <figure>
+                    <img src="../assets/imágenes/css-propiedades.JPG" alt="muestra css propiedades">
+                </figure>
                 </p>
                 <p> <strong>Selectores css:</strong>Los selectores permiten llamar elementos que se encuentran en el
                     html para añadirles estilos. Existen varios selectores
                     con distintos grados de especificidad. La especificidad es el criterio que utiliza css para decidir
                     cual instrucción se ejecuta por sobre otra.</p>
-                <br>
+                <figure>
+                    <img src="../assets/imágenes/múltiples selectores.JPG" alt="Múltiples selectores en css.">
+                </figure>
                 <p> <strong>Propiedades en css:</strong>Las propiedades en css son aquellas cualidades que se pueden
                     declarar para un elemento seleccionado con un tipo de selector</p>
                 <br>
                 <p> <strong>Valor en css:</strong>La propiedad y el valor funcionan como llave cerradura, es decir la
                     propiedad dice cual es la cualidad que recibirá estilos y el valor dice cuanto valen esos estilos.
                 </p>
-                <p><strong>Recomendaciones de escritura css</strong>
+                <p><strong>Recomendaciones de escritura css</strong></p>
                 <ul class="advice-list">
                     <li>Indentar declaraciones dentro de la regla.</li>
                     <li>Utiliza sólo un selector por línea.</li>
                     <li>Dejar un espacio entre l último selector y la llave de inicio.</li>
                     <li>Dejar un espacio entre los dos puntos y el valor</li>
                 </ul>
-                </p>
+
                 <p> <strong>¿Cómo vincular un archivo css a un arcivo html?</strong> Se utiliza la etiqueta link en la
                     parte del head de html, allí se agrega el atributo hrf y en el se añade la ruta del archivo css.</p>
                 <br>
@@ -188,21 +210,21 @@
                 <p> <strong>Pseudoelemento:</strong> permite seleccionar una parte concreta un elemento. El
                     pseudoelemento se añade a un selector y se inicia con dos dos puntos.</p>
                 <br>
-                <p> <strong>Herencia</strong>Indica si el valor de una propiedad es heredado de sus elementos padres.
+                <p> <strong>Herencia</strong> Indica si el valor de una propiedad es heredado de sus elementos padres.
                 </p>
                 <br>
                 <h2>Cuarta clase</h2>
                 <p> <strong>Variables</strong> Las variables en CSS, son una manera de personalizar una propiedad, estos
                     son definidas por el autor del CSS y contienen valores específicos que se pueden volver a utilizar
                     en un documento, sin tener que volver a escribir la propiedad
-                    cada vez que se requiera, evitando posibles errores en el código.Se recomienda declarar en la raiz
+                    cada vez que se requiera, evitando posibles errores en el código.Se recomienda declarar en la raiz.
                     del documentos css con la pseudoclase root y se utilizan con la función var().</p>
                 <p> <strong>¿Cómo cambio la tipografías de un sitio web?</strong> Para cambiar la tipografía de un sitio
                     primero debe instalarse la nueva tipografía en nuestro equipo. La familia tipográfica se cambia en
                     css con el
                     atributo "font-family".Si la tipografía será utilizada en varias ocasiones dentro del sitio es
                     recomendable agregarla a una variable.</p>
-                <p><strong>Tamaños y espaciados del texto</strong>
+                <p><strong>Tamaños y espaciados del texto</strong></p>
                 <ul class="advice-list">
                     <li>Font size: Es la cualidad que define el tamaño del texto.</li>
                     <li>Line-height: Es la cualidad que define el interlineado, se declara con fracción.</li>
@@ -211,7 +233,6 @@
                     <li>Font-weight: Es la cualidad que define el peso tipográfico.</li>
                     <li>Font-style: Es la cualidad que define el estilo de la fuente.</li>
                 </ul>
-                </p>
                 <p><strong>Alineación del texto</strong> Existen diferentes maneras de alinear un texto. Si se quiere
                     alinear un texto se utiliza la propiedad <strong>text-align.</strong>
                     El valor definirá la dirección a la cual se alineará el texto. Si se quiere alinear a la izquierda
@@ -224,19 +245,22 @@
                     Se pueden utilizar con una palabra clave(variable), en formato hexadecimal,en rgb o rgba, en hsl o
                     hsla y transparent/currentColor.
                     Se recomienda que el color sea utilizado con variables.</p>
-                <p><strong>Otras propiedades relacionadas</strong>
+                <p><strong>Otras propiedades relacionadas</strong> </p>
                 <ul class="advice-list">
                     <li>Text-decoration: Subrayado.</li>
                     <li>Text-shadow: Sombra.</li>
                     <li>Text-overflow: Desbordamiento</li>
                     <li>White-space: Uso de blanco dentro de un elemento.</li>
                 </ul>
-                </p>
+
                 <p><strong>Modelo de caja</strong> Este modelo explica que en css todo debe visualizarse como si fuera
                     una caja.
                     La página tiene dos formas de fluír, fluye como caja hacia abajo o fluye como línea. La propiedad
                     display permite controlar
                     como un elemento se incorpora dentro del flujo.</p>
+                <figure>
+                    <img src="../assets/imágenes/box-model.JPG" alt="modelo de caja.">
+                </figure>
                 <p><strong>Opciones de display</strong>
                 <ul class="advice-list">
                     <li>Display-block: El elemento va a ocupar todo el ancho disponible y si no le damos un alto va a
@@ -252,8 +276,10 @@
                     La posición predeterminada es "position:static" pero ésta puede variar con los valores "relative",
                     "absolute", y "sticky".
                     La declaración position:fixed sirve para ubicar elementos dentro de la ventana, aunque uno haga
-                    scroll el elemento se quedará
-                    en la posición indicada.</p>
+                    scroll el elemento se quedará en la posición indicada.</p>
+                <figure>
+                    <img src="../assets/imágenes/positions.JPG" alt="Posiciones en css.">
+                </figure>
                 <p> <strong>¿Qué es flexbox?</strong> Es un tipo de display que cnvierte un contenedor normal en un
                     contenedor
                     flexible. Entrega a un contenedor la habilidad para alterar el ancho, alto y espaciado de sus
@@ -265,7 +291,7 @@
                     por defecto es horizontal y está definida por la propiedad "flex-direction" y por el valor "row",
                     para cambiar a un eje vertical
                     se debe colocar el valor column. </p>
-                <p><strong>Vocabulario básico para hablar de flex</strong>
+                <p><strong>Vocabulario básico para hablar de flex</strong> </p>
                 <ul class="advice-list">
                     <li>Contenedor flexible: Elemento con propiedad display:flex;</li>
                     <li>Elementos flexibles: Descenientes directos de un contenedor flexible.</li>
@@ -275,16 +301,18 @@
                     <li>Línea: Los elementos flexibles pueden quedar contenidos en una línea o utilizar varias según su
                         ancho.</li>
                 </ul>
-                </p>
                 <p> Si quiero distribuir los elementos en el eje principal utilizo la propiedad justify-content y si
                     quiero distribuirlos en el eje
                     transversal se hace con la propiedad align-items.</p>
+                <figure>
+                    <img src="../assets/imágenes/direccion-ejes.JPG" alt="Distribución en css.">
+                </figure>
                 <p> <strong>Múltiples líneas:</strong> Por defecto los elementos de un contenedor flex se ajustan al
                     ancho disponible, uno al lado del otroen la misma línea. Esto puede ser modificado a través de la
                     propiedad
                     flex-wrap, permitiendo que estos rompan la línea y se ubiquen en una nueva línea según el ancho de
                     los elementos.</p>
-                <p> <strong>Distribución</strong>Para distribuir elementos se utiliza la propiedad align. Se utiliza
+                <p> <strong>Distribución</strong> Para distribuir elementos se utiliza la propiedad align. Se utiliza
                     align-items para la
                     alineación de elementos en el eje secundario (vertical) y se utiliza align-self para la alineación
                     del propio
@@ -310,7 +338,7 @@
                 <p> <strong>Soporte en navegadores: </strong> El trabajo en este módulo comenzó el 2012 a partir de una
                     iniciativa de microsoft.
                     Actualmente el soporte de navegadores es superior a un 97% globalmente. </p>
-                <p><strong>Características de css grid</strong>
+                <p><strong>Características de css grid</strong></p>
                 <ul class="advice-list">
                     <li>diagramación en dos dimensiones.</li>
                     <li>Permite definir una estructura de diagramación independiente del orden en que se encuentre el
@@ -319,7 +347,7 @@
                         características del cliente (escritorio, móvil, tablet, etc).</li>
                     <li>Permite solapar áreas.</li>
                 </ul>
-                </p>
+
                 <p><strong>Vocabulario para css grid</strong>
                 <ul class="advice-list">
                     <li>Contenedor de grilla:elemento exterior, padre directo de los elementos de grilla.</li>
@@ -332,7 +360,35 @@
                     <li>Espacio restante: espacio que no está asignado a un track o un área.</li>
                 </ul>
                 </p>
-                <h2>Septima clase</h2>
+                <h2>Séptima clase</h2>
+                <p> <strong>Repaso de conceptos de css grid.</strong>
+                <figure>
+                    <img src="../assets/imágenes/grillas-características.JPG" alt="Conceptos de grilla css.">
+                </figure>
+                <p> <strong>Responsive design:media queries</strong> ¿Cómo hacer nuestros sitios se vean bien
+                    en múltiples plataformas?¿Cómo hacer que se puedan escalar?. La respuesta es con media queries,
+                    estos
+                    son un tipo de código que se coloca en el css, el cual da la instrucción de adaptar los elementos
+                    según medidas definidas con media queries, es decir cada vz que el tamaño de dispositivo sea mas
+                    grande o mas pequeño
+                    que la medida definida el tamaño de los elentos cambiará.</p>
+                <p> <strong>unidad fr</strong> La unidad de medida fr permite establecer la cantidad
+                    de espacio que ocupara un elemento dentro del área disponible , es decir , 1 fr es igual a una parte
+                    del espacio disponible,
+                    de esta manera podemos definir el espacio de ocupara cada elemento y la cantidad de columnas que
+                    tendrá el espacio. </p>
+                <figure>
+                    <img src="../assets/imágenes/unidad-fr.JPG" alt="Unidad fr.">
+                </figure>
+                <p> <strong>Definir una grilla identificando líneas</strong> Cuando se construye una grilla se van
+                    generando líneas perpendiculares
+                    (en el caso de que se creen column y rows), esta intersección de columnas y filas genera líneas
+                    imaginarias que se enumeran. Esta enumeración puede
+                    servir para utilizarse en css indicando que un elemento abarca desde una línea x hasta otra línea x.
+                </p>
+                <figure>
+                    <img src="../assets/imágenes/definir-una-grilla.JPG" alt="Unidad fr.">
+                </figure>
                 <h2>Octava clase</h2>
                 <p> <strong>javaScript</strong> Es un lenguaje de programación utilizado en el desarrollo frontend para
                     generar interaciones
@@ -359,7 +415,7 @@
                     de programación) que nos permiten escribir código que vamos a reutilizar muchas veces y lo único que
                     cambia son las variables.</p>
                 <h2>Novena clase</h2>
-                <p><strong>Vocabulario asociado a javaScript</strong>
+                <p><strong>Vocabulario asociado a javaScript</strong> </p>
                 <ul class="advice-list">
                     <li>Variables: Manera de establecer un valor que después reutilizado en otros lugares.Hay distintos
                         tipos de variables como
@@ -372,7 +428,7 @@
                     <li>undefined: dato no definido, esto ocurre cuando se intenta realizar alguna acción con una
                         variable y esta no se encuentra definida.</li>
                 </ul>
-                </p>
+
                 <p> <strong>¿Que es el preprocesamiento?</strong> En palabras simples es el motor oculto que hace que lo
                     ecribo de una forma
                     pase a estar en la forma en que el navegador lo necesita.¿Que es un un preprocesador CSS?Es un
@@ -422,7 +478,7 @@
                     <img src="../assets/imágenes/scss.jpg" alt="muestra información de scss mixins">
                 </figure>
                 <h2>Décima clase</h2>
-                <p><strong>¿Qué comprende el concepto accesibilidad?</strong>
+                <p><strong>¿Qué comprende el concepto accesibilidad?</strong></p>
                 <p>Discapacidades:</p>
                 <ul class="advice-list">
                     <li>Auditiva</li>
@@ -432,7 +488,7 @@
                     <li>Habla</li>
                     <li>Visual</li>
                 </ul>
-                </p>
+
                 <p>Situaciones:</p>
                 <ul class="advice-list">
                     <li>Distintos dispositivos de entrada</li>
@@ -441,7 +497,7 @@
                     <li>Limitaciones situacionales</li>
                     <li>Características técnicas</li>
                 </ul>
-                <p><strong>¿Porqué es importante la accesibilidad?</strong>
+                <p><strong>¿Porqué es importante la accesibilidad?</strong></p>
                 <ul class="advice-list">
                     <li>Acceso a la información como derecho humano</li>
                     <li>Igualdad de acceso e igualdad de oportunidades para personas con distintas capacidades</li>
@@ -451,13 +507,13 @@
                     <li>Razones de negocio: abarcar un mayor mercado, cumplimiento de responsabilidad pública y
                         políticas de inclusión</li>
                 </ul>
-                </p>
+
                 <p><strong>Principios de Accesibilidad Web</strong></p>
                 <p> <strong>Perceptible</strong>La información y los
                     componentes de la interfaz de usuario deben ser presentados a los usuarios
                     de modo que ellos puedan percibirlos.
                 </p>
-                <p><strong>¿Cómo hacerlos perceptibles?</strong>
+                <p><strong>¿Cómo hacerlos perceptibles?</strong></p>
                 <ul class="advice-list">
                     <li>Alternativas de texto para contenido no textual.</li>
                     <li>Subtítulos y otras alternativas para multimedia.</li>
@@ -468,7 +524,7 @@
                 <p> <strong>Operables</strong> Los componentes de la
                     interfaz de usuario y la navegación deben ser operables.
                 </p>
-                <p><strong>¿Cómo hacerlos operables?</strong>
+                <p><strong>¿Cómo hacerlos operables?</strong> </p>
                 <ul class="advice-list">
                     <li>Funcionalidad disponible desde el teclado.</li>
                     <li>Los usuarios tienen tiempo suficiente para leer y utilizar el contenido.</li>
@@ -476,39 +532,45 @@
                     <li>Los usuarios pueden navegar fácilmente, encontrar contenido, y determinar dónde están.</li>
                     <li>Los usuarios pueden utilizar diferentes modalidades de entrada además del teclado.</li>
                 </ul>
-                </p>
+
                 <p> <strong>Comprensible</strong> La información y el manejo
                     de la interfaz de usuario deben ser comprensibles.
                 </p>
-                <p><strong>¿Cómo hacerlos comprensibles?</strong>
+                <p><strong>¿Cómo hacerlos comprensibles?</strong></p>
                 <ul class="advice-list">
                     <li>El texto es legible y comprensible.</li>
                     <li>El contenido aparece y opera de forma predecible.</li>
                     <li>Asistencia a los usuarios para prevenir y corregir errores.</li>
                 </ul>
-                </p>
+
                 <p> <strong>Robusto</strong> El contenido debe ser suficientemente robusto como
-                para ser interpretado de forma fiable por una amplia variedad de aplicaciones de usuario,
+                    para ser interpretado de forma fiable por una amplia variedad de aplicaciones de usuario,
                     incluyendo las ayudas técnicas. El contenido es compatible con las herramientas de
                     usuario actuales y futuras.
                 </p>
-                <p><strong>Niveles de conformidad</strong>
-                    <ul class="advice-list">
-                        <li><strong>Nivel “A”:</strong>Alto impacto en una amplia variedad de grupos de usuarios.No está enfocado en un
-                            único tipo de discapacidad. Bajo impacto en la lógica de presentación o de negocios.
-                            Generalmente de fácil implementación..</li>
-                        <li><strong>Nivel “AA”:</strong> Alto impacto para los usuarios, pero pueden estar referidos a grupos o
-                            discapacidades específicas. Para cumplir con estos criterios podrían ser necesarios cambios a la
-                            presentación o lógica de negocio del sitio.</li>
-                        <li><strong>Nivel “AAA”:</strong> Enfocados en mejoras para poblaciones de usuarios específicas.
-                            Pueden ser más difíciles o costosas de implementar de acuerdo a las limitaciones
-                            de la plataforma. La proporción de costo/beneficio puede ser más baja.</li>
-                    </ul>
-                    </p>
-                    <p> <strong>Técnicas básicas para la accesibilidad</strong> En el código se debe utilizar el atributo alt en las imágenes. Se Debe
-                        utilizar marcado estándar y válido. Se debe validar datos de formularios e indicar
-                        forma de solucionar errores.
-                        </p>
+                <p><strong>Niveles de conformidad</strong></p>
+                <ul class="advice-list">
+                    <li><strong>Nivel “A”:</strong>Alto impacto en una amplia variedad de grupos de usuarios.No está
+                        enfocado en un
+                        único tipo de discapacidad. Bajo impacto en la lógica de presentación o de negocios.
+                        Generalmente de fácil implementación..</li>
+                    <li><strong>Nivel “AA”:</strong> Alto impacto para los usuarios, pero pueden estar referidos a
+                        grupos o
+                        discapacidades específicas. Para cumplir con estos criterios podrían ser necesarios cambios a la
+                        presentación o lógica de negocio del sitio.</li>
+                    <li><strong>Nivel “AAA”:</strong> Enfocados en mejoras para poblaciones de usuarios específicas.
+                        Pueden ser más difíciles o costosas de implementar de acuerdo a las limitaciones
+                        de la plataforma. La proporción de costo/beneficio puede ser más baja.</li>
+                </ul>
+                <figure>
+                    <img src="../assets/imágenes/niveles-de-conformidad.JPG" alt="Niveles de conformidad.">
+                </figure>
+                <p> <strong>Técnicas básicas para la accesibilidad</strong> En el código se debe utilizar el atributo
+                    alt en las imágenes. Se Debe utilizar marcado estándar y válido. Se debe validar datos de formularios e indicar
+                    forma de solucionar errores.</p>
+               
+                <h2>Onceava clase</h2>
+                <p> En esta última clase hemos realizado una revisión de losframework de todos los estudiantes del curso, resolviendo dudas.</p>
             </div>
         </div>
         </div>
